@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DÉHU DAUPHIN DOODLEJUMP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="my_canvas" width="600" height="800"></canvas>
+  <button id="retry-button">Réessayer</button>
+
+  <div id="tableau-scores">
+    <h2>Tableau des scores</h2>
+    <ol id="liste-scores"></ol>
+  </div>
+
+  <div id="pseudo-modal">
+    <div class="modal-content">
+      <h3>Entrez votre nom</h3>
+      <input type="text" id="pseudo-input" placeholder="Pseudo" />
+      <br/>
+      <button id="pseudo-ok">OK</button>
+    </div>
+  </div>
+
+  <!-- Script principal (contient Model, View, Controller) -->
+  <script src="app.js"></script>
+</body>
+</html>
